@@ -1,0 +1,40 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.navigation {
+display: flex;
+height: 100vh;
+flex-wrap: wrap;
+align-content: flex-start;
+
+
+.main {
+    height: 100px;
+    width: 100px;
+    background-color:rgb(236, 17, 17);
+
+    padding-top: 30px;
+    padding-left: 30px;
+    box-sizing: border-box;
+
+    margin: 20px;
+
+    
+}
+.footer {
+    height: 100px;
+    width: 100px;
+    background-color:rgb(236, 17, 17);
+
+    padding-top: 30px;
+    padding-left: 30px;
+    box-sizing: border-box;
+
+    margin: 20px;
+
+    
+}
+/flex-direction: row;
+/justify-content: space-around;
+/align-items: center;

@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: monospace;
+
+}
+
+.container {
+    background-color: rgb(50,50,50 );
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;  /spravi za noveha uporabnika v stolpec;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.login {
+    background-color: aqua;
+    width: 320px;
+    height: 320px;
+    display: flex;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    width: 128px;
+    height: 128px;
+
+}
+
+input {
+    width: 200px;
+    height: 26px;
+    margin-bottom: 2px;
+    padding-left: 10px;
+    box-sizing: border-box;  */omejimo dimenzijo, ki smo jo mogoče pokvarili z prejašnjo vrstic;
+    background-color: black;
+    text-decoration-color: rgb(255, 153, 127);
+    color: wheat;   
+    border-style: none;
+}
+
+button {
+    width: 100px;
+    height: 26px;
+    margin-top: 10px
+    padding-left: 10px;
+    box-sizing: border-box;  */omejimo dimenzijo, ki smo jo mogoče pokvarili z prejašnjo vrstic;
+    background-color: black;
+    color: wheat;   
+    border-style: none;
+}
+    
+input::placeholder {
+    
+    color: beige;
+}
+
+.new-user {
+       margin-top: 10px
+}
+
+a {
+    margin-top: 10px;
+    color: aqua;
+
+    text-decoration: none;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
